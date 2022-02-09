@@ -1,0 +1,119 @@
+
+ .products{
+     min-height: 100vh;
+    .section-title{
+        margin-left: 2rem;
+    }
+     .pross{
+         display:flex;
+        align-items:center;
+        justify-content:space-around;
+         flex-wrap:wrap;
+        margin:1rem auto;
+        width:100%;
+        
+        .prods{
+            height:21rem;
+            width:18rem;
+            border-radius: .5rem;
+            margin: 2rem;
+            cursor: pointer;
+            overflow: hidden;
+            position:relative;
+            box-shadow: 0 0 .5rem #333;
+            justify-content: center;
+            img{
+                height: 90%;
+                                width:100%;
+                                object-fit:cover;
+            }
+            
+            h4{
+                border-radius: 1px;
+                justify-content: center;
+                object-fit: cover;
+                background-color:white;
+                text-align:center;
+                color:black;
+                height: 2rem;
+            }
+            p{
+                display: flex;
+                align-items: center;
+                left: 0;
+                //flex-flow: column;
+                justify-content: center;
+                color: blue;
+            }
+            button{
+               
+                align-items: center;
+                flex-flow: column;
+                left: 40%;
+                color: brown;
+                background-color:red;
+                justify-content: center;
+                -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+            }
+          
+        }
+       
+       
+     }
+ }
+.cta{
+    .container{
+        .text-center{
+margin-top: 2rem;
+        }
+    }
+}
+
+
+
+// .products {
+//     min-height: 100vh;
+//     width: 100vw;
+//       .box-containerss{
+//         display:flex;
+//         align-items:center;
+//         justify-content:space-around;
+//         flex-wrap:wrap;
+//         margin:1rem auto;
+//         width:90%;
+//         .boxss{
+//             height:20rem;
+//             width:25rem;
+//             border-radius: .5rem;
+//             margin: 2rem;
+//             cursor: pointer;
+//             overflow: hidden;
+//             position:relative;
+//             box-shadow: 0 0 .5rem #333;
+//             img{
+//                 height: 100%;
+//                 width:100%;
+//                 object-fit:cover;
+//             }
+//             .infos{
+//                 position:absolute;
+//                 top: 0;left: 0;
+//                 height: 100%;
+//                 width:100%;
+//                 background: rgba(51, 51, 51, .6);
+//                 text-align: center;
+//                 display: flex;
+//                 align-items: center;
+//                 justify-content: center;
+//                 flex-flow: column;
+//                 color: #fff; 
+//                 transition: .2s;
+//                 transform: scale(0); 
+//             }
+//             &:hover .infos{
+//                 transform: scale(1);
+//             }
+//         }
+//       }
+// }
